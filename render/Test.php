@@ -1,11 +1,10 @@
 <?php
 
-namespace render;
 
-class test
+class Test
 {
-    public $name = 'test';
-    public function __construct(string $name){
+    public $name;
+    public function __construct( $name){
         $this -> name =  $name;
     }
     public function __toString(){
